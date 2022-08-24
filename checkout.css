@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+
+.containerCheckout {
+    background-color: #efefef;
+}
+
+.containerEndereço, .containerPagamento, .containerConfirmaçao {
+    border: solid 1px  #c9c9c9;
+    margin: 20px;
+    background-color: #fff ;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.tituloPadrao {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textoPadrao {
+    font-size: 15px;
+}
+
+.fa-solid fa-address-card, .textoPagamento {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.imagemCartao {
+    border: #c9c9c9 solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #c9c9c9; 
+}
+
+.exemploCartao {
+    text-align: center;
+    margin: 15px
+}
+
+.textoInformativo  {
+    font-size: 12px;
+    color:#555;
+}
+
+.icone {
+    font-size: 22px;
+    color:#555;
+}
+
+.containerLista {
+    list-style-type: none;
+}
+
+.tituloCartao, .dadosCartao, .descriçaoProduto {
+    font-size: 15px;
+    margin-left: 10px;  
+}
+
+.containerLista  {
+    padding-bottom: 8px;
+}
+
+.containerLista .dadosCartao, .containerLista .parcelamento{
+    width: 100%;
+    height: 30px;
+}
+
+.tituloCartao, i {
+    display: inline-block;
+}
+
+.boletoBancario {
+    border-top: solid 1px  #c9c9c9;
+    border-bottom:solid 1px  #c9c9c9 ;
+    padding:15px;
+}
+
+.pagamentoPix {
+    border-bottom:solid 1px  #c9c9c9 ;
+    padding:15px;
+}
+
+.imagemProduto {
+    width: 25%;
+    height: 25%;
+}
+
+.imagemProduto, .organizacaoProduto {
+    display: inline-block;
+}
+
+.tituloProduto {
+    font-weight: bold ;
+    font-size: 15px;
+}
+
+.preço {
+    color: rgb(155, 56, 56);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.envio {
+    background-color: #c9c9c9;
+    padding:15px;
+}
+
+.textoEnvio {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.boxEnvio {
+    font-size: 13px;
+}
+
+#boxPadrao {
+    padding: 20px;
+}
+
+.botaoCompras {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #dd0238;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center; 
+}
+
+.botaoCompras:hover {
+    cursor: pointer;
+    background-color: #000;
+    transition: .5s ;
+}
