@@ -216,20 +216,20 @@ body {
 
     .containerEndereço {
         
-        flex: 0.6 1;
+        flex: 0.6 0.8;
         border-right: solid 1px #c9c9c9;
     }
 
     .containerPagamento {
         margin-left: 8px;
         margin-right: 8px;
-        flex: 0.7 1;
+        flex: 0.4 5 ;
         border-right: solid 1px #c9c9c9;
     }
 
     .containerFinal {
         
-        flex: 1.2 1;
+        flex: 1.1 0.8 10% ;
     }
 
     .containerCheckout {
